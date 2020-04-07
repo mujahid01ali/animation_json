@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5D19FB23583ECC003B2D1B /* a.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D19FA23583ECC003B2D1B /* a.json */; };
+		0A5D19FD23584A7B003B2D1B /* 159-servishero-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D19FC23584A7B003B2D1B /* 159-servishero-loading.json */; };
 		0AE187D723583C5100AE8888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE187D623583C5100AE8888 /* AppDelegate.swift */; };
 		0AE187D923583C5100AE8888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE187D823583C5100AE8888 /* SceneDelegate.swift */; };
 		0AE187DB23583C5100AE8888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE187DA23583C5100AE8888 /* ViewController.swift */; };
 		0AE187DE23583C5100AE8888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE187DC23583C5100AE8888 /* Main.storyboard */; };
 		0AE187E023583C5100AE8888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE187DF23583C5100AE8888 /* Assets.xcassets */; };
 		0AE187E323583C5100AE8888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE187E123583C5100AE8888 /* LaunchScreen.storyboard */; };
+		0AE426BA2359A28000FBE107 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE426B92359A28000FBE107 /* ViewController2.swift */; };
+		9062F781E28272AE3D3A398C /* Pods_JSONANIMATION.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B57D5955ECD890F7E4CAA29 /* Pods_JSONANIMATION.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5D19FA23583ECC003B2D1B /* a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = a.json; sourceTree = "<group>"; };
+		0A5D19FC23584A7B003B2D1B /* 159-servishero-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "159-servishero-loading.json"; sourceTree = "<group>"; };
 		0AE187D323583C5100AE8888 /* JSONANIMATION.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONANIMATION.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE187D623583C5100AE8888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AE187D823583C5100AE8888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		0AE187DF23583C5100AE8888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE187E223583C5100AE8888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AE187E423583C5100AE8888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE426B92359A28000FBE107 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		46D470723D07D78AD18C11FA /* Pods-JSONANIMATION.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONANIMATION.debug.xcconfig"; path = "Target Support Files/Pods-JSONANIMATION/Pods-JSONANIMATION.debug.xcconfig"; sourceTree = "<group>"; };
+		7B57D5955ECD890F7E4CAA29 /* Pods_JSONANIMATION.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONANIMATION.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D01BB3E186211083B766A3 /* Pods-JSONANIMATION.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONANIMATION.release.xcconfig"; path = "Target Support Files/Pods-JSONANIMATION/Pods-JSONANIMATION.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9062F781E28272AE3D3A398C /* Pods_JSONANIMATION.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				0AE187D523583C5100AE8888 /* JSONANIMATION */,
 				0AE187D423583C5100AE8888 /* Products */,
+				4CB01EE74A41B3DB0E028AAB /* Pods */,
+				4CBA6EEEBE243359F66C9DC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				0AE187D623583C5100AE8888 /* AppDelegate.swift */,
+				0A5D19FA23583ECC003B2D1B /* a.json */,
 				0AE187D823583C5100AE8888 /* SceneDelegate.swift */,
+				0A5D19FC23584A7B003B2D1B /* 159-servishero-loading.json */,
 				0AE187DA23583C5100AE8888 /* ViewController.swift */,
 				0AE187DC23583C5100AE8888 /* Main.storyboard */,
 				0AE187DF23583C5100AE8888 /* Assets.xcassets */,
 				0AE187E123583C5100AE8888 /* LaunchScreen.storyboard */,
 				0AE187E423583C5100AE8888 /* Info.plist */,
+				0AE426B92359A28000FBE107 /* ViewController2.swift */,
 			);
 			path = JSONANIMATION;
+			sourceTree = "<group>";
+		};
+		4CB01EE74A41B3DB0E028AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46D470723D07D78AD18C11FA /* Pods-JSONANIMATION.debug.xcconfig */,
+				B9D01BB3E186211083B766A3 /* Pods-JSONANIMATION.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CBA6EEEBE243359F66C9DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B57D5955ECD890F7E4CAA29 /* Pods_JSONANIMATION.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AE187E723583C5100AE8888 /* Build configuration list for PBXNativeTarget "JSONANIMATION" */;
 			buildPhases = (
+				9198FE54190D649535EAC227 /* [CP] Check Pods Manifest.lock */,
 				0AE187CF23583C5100AE8888 /* Sources */,
 				0AE187D023583C5100AE8888 /* Frameworks */,
 				0AE187D123583C5100AE8888 /* Resources */,
+				A4FCDA4DE26E325D4A0FF4B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +162,60 @@
 			files = (
 				0AE187E323583C5100AE8888 /* LaunchScreen.storyboard in Resources */,
 				0AE187E023583C5100AE8888 /* Assets.xcassets in Resources */,
+				0A5D19FD23584A7B003B2D1B /* 159-servishero-loading.json in Resources */,
 				0AE187DE23583C5100AE8888 /* Main.storyboard in Resources */,
+				0A5D19FB23583ECC003B2D1B /* a.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9198FE54190D649535EAC227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONANIMATION-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FCDA4DE26E325D4A0FF4B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONANIMATION/Pods-JSONANIMATION-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONANIMATION/Pods-JSONANIMATION-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0AE187CF23583C5100AE8888 /* Sources */ = {
@@ -139,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE187DB23583C5100AE8888 /* ViewController.swift in Sources */,
+				0AE426BA2359A28000FBE107 /* ViewController2.swift in Sources */,
 				0AE187D723583C5100AE8888 /* AppDelegate.swift in Sources */,
 				0AE187D923583C5100AE8888 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +367,7 @@
 		};
 		0AE187E823583C5100AE8888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D470723D07D78AD18C11FA /* Pods-JSONANIMATION.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +386,7 @@
 		};
 		0AE187E923583C5100AE8888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D01BB3E186211083B766A3 /* Pods-JSONANIMATION.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
